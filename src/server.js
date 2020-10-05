@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 */
 
 app.get('/', (req, res) => {
-  res.json('pong!');
+  res.json('Hello, my name is Ryan!! Second Version');
 });
 
 app.get('/todos', (req, res) => {
