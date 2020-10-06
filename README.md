@@ -1,10 +1,4 @@
-# Deploying a Node App to Google Cloud with Kubernetes
-
-## Want to learn how to build this?
-
-Check out the [post](https://testdriven.io/deploying-a-node-app-to-google-cloud-with-kubernetes).
-
-## Want to use this project?
+# Deploying to Google Cloud with Kubernetes
 
 ### Docker
 
