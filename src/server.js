@@ -44,7 +44,7 @@ app.post('/todos', (req, res) => {
     completed: false
   })
   .then(() => { res.json('Todo added!'); })
-  .catch(() => { res.json('Something went wrong.') });
+  .catch(() => { res.json('Something went wrong!?') });
 });
 
 app.put('/todos/:id', (req, res) => {
