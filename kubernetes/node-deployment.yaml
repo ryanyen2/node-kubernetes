@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: node
-        image: gcr.io/<PROJECT_ID>/node-kubernetes:v1.0
+        image: gcr.io/ryanyen2/node-kubernetes:v1.0
         env:
         - name: NODE_ENV
           value: "development"
