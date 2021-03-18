@@ -34,7 +34,7 @@ app.get('/todos/:id', (req, res) => {
   knex('todos')
   .where({ id:  parseInt(req.params.id) })
   .then((data) => { res.json(data); })
-  .catch(() => { res.json('Something went wrong.') });
+  .catch(() => { res.json('Something went wrong!!') });
 });
 
 app.post('/todos', (req, res) => {
